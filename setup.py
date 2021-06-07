@@ -14,4 +14,4 @@ setup(name='tsdf',
       version='0.1dev',
       packages=find_packages('src'),
       package_dir={'': 'src'},
-      ext_modules=cythonize(ext_modules, compiler_directives={'language_level' : "3"})
+      ext_modules=cythonize(ext_modules, language_level="3")
