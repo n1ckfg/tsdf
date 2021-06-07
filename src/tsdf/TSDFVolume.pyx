@@ -1,6 +1,7 @@
 #lib: boundscheck=False
 #lib: initializedcheck=False
 #lib: cdivision=True
+#cython: language_level=3
 from copy import copy
 import numpy as np
 cimport numpy as np
